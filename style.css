@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#Logo {
+    /* diminuir o tamanho da logo */
+    width: 6%;
+}
+
+.navbar {
+    /* Mudar a cor do fundo do header */
+    background-color: #5885AF;
+}
+
+
+/* Body */
+
+/* Section 1 - Quem sou? */
+
+/* Imagem de pedreiros */
+#ImagemRepresentativa {
+    /* mudar tamanho */
+    width: 42vw;
+    /* adicionar borda e arredondar */
+    border: 1px solid black;
+    border-radius: 3px;
+    /* Margem de todos os cantos */
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: 35px;
+    margin-bottom: 3px;
+}
+
+/* Div que tem a imagem e o texto juntos */
+#imagemTexto {
+    /* Deixar a imagem e o texto um do lado do outro e centralizar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Texto pequeno embaio da imagem */
+#TextoPequeno {
+    /* deixar a letra pequena */
+    font-size: 11px;
+    /* Afastar do canto */
+    margin-left: 35px;
+}
+
+/* section 2 - minha missão */
+
+/* section inteira da missão */
+#minhaMissao{
+    /* mudar a cor do fundo */
+    background-color: #5885AF;
+
+}
+
+#textoMissao{
+    /* separar dos cantos e deixar um espaçamento maior dentro da section */
+    padding: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* Section 3 - conheça o fundador*/
+
+/* div que tem a imagem e o texto mas com o fundo azul */
+#imagemTexto2 {
+    /* Deixar a imagem e o texto um do lado do outro e centralizar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* mudar a cor do fundo */
+}
+
+/* Foto do Rangel */
+#ImagemRangel{
+    /* mudar o tamanho da imagem */
+    width: 30vw;
+    /* borda e deixar a imagem redonda */
+    border: solid black 3px;
+    border-radius: 100%;
+    /* margem */
+    margin: 30px;
+}
+
+/* Texto do lado da foto do Rangel */
+#TextoRangel{
+    /* deixar o texto mais bonitinho */
+    margin: 80px;
+}
+
+
+
+/* section 4 - meus serviços */
+
+/* section inteira */
+#serviços{
+    /* mudar a cor do fundo */
+    background-color: #5885AF;
+    /* centralizar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* lista de serviços */
+#listaServiços{
+
+    /* separar dos cantos e entre si */
+    padding: 30px;
+    margin: 50px;
+}
+
+
+
+/* section 5 - colaboradores */
+
+#colaboradores{
+    /* alinhar no meio */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* separar das pontas */
+    margin: 30px;
+}
+
+/* footer */
+
+footer{
+    background-color: #5885AF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagemContato{
+    display: flex;
+}
+
+.logos{
+    width: 3vw;
+}
+
+#logoFooter{
+    width: 10vw;
+}
+
+#TituloFooter{
+    margin-top: 60px;
+}
+
+/* botao de javascript */
+
+#Botao{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Botao1{
+    margin-top: 400px;
+    width: 50vw;
+    position: absolute;
+    border: black solid 5px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px rgb(94, 91, 91);
+}
